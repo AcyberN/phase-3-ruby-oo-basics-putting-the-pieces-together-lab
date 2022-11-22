@@ -1,5 +1,4 @@
 describe 'Shoe' do
-
   describe '.new' do
     it 'gets initialized with a brand' do
       expect { Shoe.new("Adidas") }.not_to raise_error
